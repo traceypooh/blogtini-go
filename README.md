@@ -13,7 +13,7 @@ Your site is live at `https://YOU.github.io/travel-with-steve/` -- a minute or t
 
 ## Write
 - A post is a folder w/ an `index.html` -- see `2026-10-hello-world/`.  Copy it, rename it, write.
-- Pictures go in `img/`.
+- Pictures go in `img/`.  Swap in your own `img/profile.jpg` -- & your social links, in `config.yml`.
 - `about/` is a page (in the menu).  `index.html` is your homepage.
 - Change your theme in `config.yml` -- see them all at https://blogtini.com/themes/,
   or *your* site in each one at your `/preview/`.

@@ -15,8 +15,8 @@ theme: future-imperfect
 
 posts_per_page: 10
 
-# your picture -- for sidebars & "about" bits
-# img_site: img/me.jpg
+# your picture -- for sidebars, "about" bits & link previews.  Swap in your own `img/profile.jpg`
+img_site: img/profile.jpg
 
 menu:
   main:
@@ -36,10 +36,20 @@ menu:
 sidebar:
   about: Hi!  This is my brand new blog.  (Change this in config.yml)
 
+# (future-imperfect: show your social links' icons -- & RSS -- atop the sidebar, & in the footer)
+intro:
+  rss: true
+  social: true
+footer:
+  rss: true
+  social: true
+
+# Your social links -- as icons, in your theme.  Replace these examples w/ yours, or delete them.
+# More: twitter, youtube, instagram, linkedin, facebook, flickr, strava, codepen, gitlab, ... & email
 social:
   rss: index.xml
-  # github: YOU
-  # mastodon: mastodon.social/@YOU
+  github: traceypooh/blogtini        # eg: YOU (your profile) -- or YOU/REPO
+  mastodon: mastodon.social/@Mastodon # eg: mastodon.social/@YOU
 
 # The Contact page (/?contact) sends you email -- via a free form service, eg: https://formspree.io
 # Sign up, make a form, & put its url here:
