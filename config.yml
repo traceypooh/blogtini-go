@@ -1,0 +1,52 @@
+# Your site's settings.  (YAML -- and this is a comment.)
+# More settings, & what they do: https://blogtini.com/docs/
+
+title: My blogtini
+
+# Your live site -- ending w/ /.  eg: https://YOU.github.io/REPO/ -- or your own domain
+site_url: https://YOU.github.io/REPO/
+
+# Your theme -- see them all, live: https://blogtini.com/themes/
+#   future-imperfect (default), editorial, massively, phantom, striped, forty, strata, helios,
+#   strongly-typed, hyperspace, librarian, terminal, grid
+# Or see *your* site in each one: open your site's /preview/
+theme: future-imperfect
+
+posts_per_page: 10
+
+# your picture -- for sidebars & "about" bits
+# img_site: img/me.jpg
+
+menu:
+  main:
+    - name: Home
+      url: /
+      pre: <i class='fa fa-home'></i>
+    - name: About
+      url: /about/
+      pre: <i class='far fa-id-card'></i>
+    - name: Categories
+      url: /?categories
+      pre: <i class='fas fa-sitemap'></i>
+    - name: Contact
+      url: /?contact
+      pre: <i class='far fa-envelope'></i>
+
+sidebar:
+  about: Hi!  This is my brand new blog.  (Change this in config.yml)
+
+social:
+  rss: index.xml
+  # github: YOU
+  # mastodon: mastodon.social/@YOU
+
+# The Contact page (/?contact) sends you email -- via a free form service, eg: https://formspree.io
+# Sign up, make a form, & put its url here:
+contact:
+  email_service: https://formspree.io/f/YOUR-FORM-ID
+
+# Comments: each one arrives as a pull request on your repo -- see https://blogtini.com/docs/#comments
+# staticman:
+#   enabled: true
+#   api: blogtini.netlify.app
+#   branch: main

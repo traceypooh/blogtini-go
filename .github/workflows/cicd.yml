@@ -1,0 +1,16 @@
+# On each push: blogtini's build (your RSS feed, sitemap & link previews), then publish to GitHub Pages.
+# (Turn on Pages once: Settings -> Pages -> Source: "GitHub Actions")
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch: # (a "Run workflow" button, in the Actions tab)
+
+# lets the build publish to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  blogtini:
+    uses: traceypooh/blogtini/.github/workflows/blogtini.yml@main
