@@ -3,8 +3,9 @@
 
 title: My blogtini
 
-# Your live site -- ending w/ /.  eg: https://YOU.github.io/REPO/ -- or your own domain
-site_url: https://YOU.github.io/REPO/
+# Your live site's address: automatic -- from your repo's name (eg: https://YOU.github.io/REPO/),
+# or your own domain's CNAME file.  Set it only if neither fits, ending w/ /, eg:
+# site_url: https://example.com/blog/
 
 # Your theme -- see them all, live: https://blogtini.com/themes/
 #   future-imperfect (default), editorial, massively, phantom, striped, forty, strata, helios,

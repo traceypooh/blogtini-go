@@ -6,7 +6,7 @@ A brand new [blogtini](https://blogtini.com) site -- your blog, as plain markdow
 1. Click **Use this template** (top right) → **Create a new repository** -- name it, eg: `travel-with-steve`.
    (Or, in a terminal: `gh repo create travel-with-steve --template traceypooh/blogtini-go --public --clone`)
 2. In your new repo: **Settings → Pages → Source: GitHub Actions**.
-3. Edit `config.yml`: your `title`, & `site_url` -- eg: `https://YOU.github.io/travel-with-steve/`.
+3. Edit `config.yml`: your `title` (& anything else you like).
    Committing that publishes your site.  (Watch it go, in the **Actions** tab)
 
 Your site is live at `https://YOU.github.io/travel-with-steve/` -- a minute or two after each push.
