@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My blogtini</title>
-  <meta name="description" content="My blog">
+  <!-- what search engines & link previews (Slack, Mastodon, iMessage, ...) show: a title, a line about your
+       site, & a picture.  For yours: CHANGE og:image TO YOUR SITE'S ADDRESS + img/profile.jpg, eg:
+       https://you.github.io/blog/img/profile.jpg -- link previews need a full address -->
+  <meta name="description" content="My new blog: notes, photos & more.">
+  <meta property="og:title" content="My blogtini">
+  <meta property="og:description" content="My new blog: notes, photos & more.">
+  <meta property="og:image" content="https://blogtini.com/img/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
   <link rel="alternate" type="application/rss+xml" href="index.xml">
   <script type="module" src="theme.js"></script>
   <!-- shows the text after ~3s even if JS never loads -- else blogtini shows it, drawn, right away -->

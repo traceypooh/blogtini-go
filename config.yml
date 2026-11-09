@@ -9,7 +9,7 @@ title: My blogtini
 
 # Your theme -- see them all, live: https://blogtini.com/themes/
 #   future-imperfect (default), editorial, massively, phantom, striped, forty, strata, helios,
-#   strongly-typed, hyperspace, librarian, terminal, grid
+#   strongly-typed, hyperspace, librarian, terminal, dossier, cosmos, grid
 # Or see *your* site in each one: open your site's /preview/
 theme: future-imperfect
 
@@ -17,6 +17,9 @@ posts_per_page: 10
 
 # your picture -- for sidebars, "about" bits & link previews.  Swap in your own `img/profile.jpg`
 img_site: img/profile.jpg
+
+# a banner atop future-imperfect's intro -- uncomment to show blogtini's, or swap in your own image
+# site_header: img/blogtini.png
 
 menu:
   main:
